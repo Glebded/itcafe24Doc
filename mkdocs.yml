@@ -13,10 +13,11 @@ theme:
   #   - search.suggest
 markdown_extensions:
 - admonition
-- pymdownx.details  # Добавляет поддержку раскрывающихся блоков (??? question)
-- pymdownx.superfences
+# - pymdownx.details  # Добавляет поддержку раскрывающихся блоков (??? question)
+# - pymdownx.superfences
 
 nav:
   - Overview: index.md
   - Installation: installation.md
   - Quick Start: quickstart.md
+  - Настройка нового проекта: setup_new_doc_project.md
