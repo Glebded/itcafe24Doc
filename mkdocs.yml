@@ -11,6 +11,10 @@ theme:
   # features:
   #   - navigation.tabs
   #   - search.suggest
+markdown_extensions:
+- admonition
+- pymdownx.details  # Добавляет поддержку раскрывающихся блоков (??? question)
+- pymdownx.superfences
 
 nav:
   - Overview: index.md
