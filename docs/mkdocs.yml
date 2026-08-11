@@ -1,0 +1,17 @@
+site_name: Тестовая документация
+site_description: Документация и руководство пользователя
+site_url: https://vyworker.github.io/test-docs/
+
+theme:
+  name: material
+  palette:
+    scheme: slate # Тёмная тема по умолчанию (как в Blender)
+    primary: indigo
+  features:
+    - navigation.tabs
+    - search.suggest
+
+nav:
+  - Главная: index.md
+  - Установка: installation.md
+  - Быстрый старт: quickstart.md
